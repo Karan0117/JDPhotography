@@ -1,0 +1,76 @@
+{
+  "services": [
+    {
+      "title": "Weddings Shoots",
+      "slug": "weddings shoots",
+      "blocks": [
+        {
+          "type": "marquee",
+          "headline": "Weddings and Pre-Wedding Shoots",
+          "content": "Weddings are a wonderful time to get your shots taken. Make it a destination wedding or an in-house one, we are prepraed to capture the best for you",
+          "background": "service-wedding.svg"
+        }
+      ]
+    },
+    {
+      "title": "Commercial Ad-Shoots",
+      "slug": "commercial ad-shoots",
+      "blocks": [
+        {
+          "type": "marquee",
+          "headline": "Commercial Ad-Shoots",
+          "content": "Weddings are a wonderful time to get your shots taken. Make it a destination wedding or an in-house one, we are prepraed to capture the best for you",
+          "background": "service-ad.svg"
+        }
+      ]
+    },
+    {
+      "title": "Music Albums",
+      "slug": "music albums",
+      "blocks": [
+        {
+          "type": "marquee",
+          "headline": "Music Albums",
+          "content": "Weddings are a wonderful time to get your shots taken. Make it a destination wedding or an in-house one, we are prepraed to capture the best for you",
+          "background": "service-music-album.svg"
+        }
+      ]
+    },
+    {
+      "title": "Promotional Events",
+      "slug": "promotional events",
+      "blocks": [
+        {
+          "type": "marquee",
+          "headline": "Promotional Events",
+          "content": "Weddings are a wonderful time to get your shots taken. Make it a destination wedding or an in-house one, we are prepraed to capture the best for you",
+          "background": "service-promo.svg"
+        }
+      ]
+    },
+    {
+      "title": "Featured & Short Films",
+      "slug": "featured short films",
+      "blocks": [
+        {
+          "type": "marquee",
+          "headline": "Featured  and Short Films",
+          "content": "Weddings are a wonderful time to get your shots taken. Make it a destination wedding or an in-house one, we are prepraed to capture the best for you",
+          "background": "service-short-films.svg"
+        }
+      ]
+    },
+    {
+      "title": "Unplugged & DJ Nights",
+      "slug": "unplugged & nights",
+      "blocks": [
+        {
+          "type": "marquee",
+          "headline": "Orchestral, Unplugged and DJ Nights",
+          "content": "Weddings are a wonderful time to get your shots taken. Make it a destination wedding or an in-house one, we are prepraed to capture the best for you",
+          "background": "service-unplugged.svg"
+        }
+      ]
+    }
+  ]
+}
