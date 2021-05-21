@@ -12,7 +12,7 @@ It consists of 5 main pages -
 5. Contact
 
 Demo - 🖥
-![demo][demodesktop]
+![demo](http://g.recordit.co/AXsSYGHiLH.gif)
 
 And, this is also **responsive**.📲
 Demo (mobile view) -
