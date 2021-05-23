@@ -4,7 +4,7 @@ export const navLineAnimation = {
   show: {
     width: "100%",
     border: "2px solid #04befe",
-    transition: { duration: 0.5, ease: "backOut" },
+    transition: { duration: 0.5, ease: "backOut", delay: 1 },
   },
 };
 

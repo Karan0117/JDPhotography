@@ -81,6 +81,7 @@ const Services = () => {
               serviceData={serviceData}
               SvgCollection={SvgCollection[index]}
               WeddingSVG={WeddingSVG}
+              key={index}
             />
           ))}
         </StyledServices>
@@ -95,8 +96,8 @@ const Services = () => {
           <h3>We also provide</h3>
           <div className="other-services-block">
             <div className="other-services-content">
-              {otherServicesData.map((otherData) => (
-                <OtherService otherData={otherData} />
+              {otherServicesData.map((otherData, index) => (
+                <OtherService otherData={otherData} key={index} />
               ))}
             </div>
             <img src={serviceDeliveryImg} alt="" />
@@ -107,7 +108,7 @@ const Services = () => {
             <h3>Values we pride upon</h3>
             <div className="value-blocks">
               {valuesInfo.map((info, index) => (
-                <Value info={info} imgInfo={valuesImg[index]} />
+                <Value info={info} imgInfo={valuesImg[index]} key={index} />
               ))}
             </div>
           </ValuesContent>

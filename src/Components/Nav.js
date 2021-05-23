@@ -81,6 +81,13 @@ const StyledNav = styled.div`
   position: sticky;
   top: 0;
   z-index: 10;
+  .nav-list {
+    li:hover {
+      h4 {
+        color: #04befe;
+      }
+    }
+  }
 
   @media screen and (max-width: 950px) {
     .nav-list {

@@ -10,7 +10,7 @@ const AdSVG = () => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g id="service-ad 1" clip-path="url(#clip0)">
+        <g id="service-ad 1" clipPath="url(#clip0)">
           <path
             id="Vector"
             opacity="0.1"
@@ -28,8 +28,8 @@ const AdSVG = () => {
               id="Vector_3"
               d="M751.92 644.6C751.92 644.6 809.92 571.13 805.43 498.1C803.54 467.44 811.09 436.92 827.96 411.25C835.985 399.089 845.11 387.691 855.22 377.2"
               stroke="#535461"
-              stroke-width="2"
-              stroke-miterlimit="10"
+              strokeWidth="2"
+              strokeMiterlimit="10"
             />
             <path
               className="yellow-leaf"
@@ -112,8 +112,8 @@ const AdSVG = () => {
               id="Vector_11"
               d="M752.42 641.53C752.42 641.53 835.22 597.88 860.7 529.29C871.4 500.49 890.7 475.65 916.49 459.02C928.759 451.155 941.723 444.43 955.22 438.93"
               stroke="#535461"
-              stroke-width="2"
-              stroke-miterlimit="10"
+              strokeWidth="2"
+              strokeMiterlimit="10"
             />
             <path
               className="orange-leaf"
@@ -618,9 +618,9 @@ const AdSVG = () => {
             y2="10.29"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#808080" stop-opacity="0.25" />
-            <stop offset="0.54" stop-color="#808080" stop-opacity="0.12" />
-            <stop offset="1" stop-color="#808080" stop-opacity="0.1" />
+            <stop stopColor="#808080" stopOpacity="0.25" />
+            <stop offset="0.54" stopColor="#808080" stopOpacity="0.12" />
+            <stop offset="1" stopColor="#808080" stopOpacity="0.1" />
           </linearGradient>
           <clipPath id="clip0">
             <rect width="1150.44" height="675.56" fill="white" />

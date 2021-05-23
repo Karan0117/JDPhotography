@@ -77,6 +77,7 @@ const PortfolioDetails = () => {
           {counterVal < 4 && <h4 onClick={moreHandler}>Load more</h4>}
         </LoadMore>
         <OtherPortfolios className="other-portfolios">
+          {/* <h3>Other Portfolios</h3> */}
           <div className="portfolio-row">
             {protfolioCardData.map((data) => (
               <ImageCard name={data.name} imgFile={data.img} key={data.name} />

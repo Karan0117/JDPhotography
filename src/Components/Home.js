@@ -123,7 +123,7 @@ const Home = () => {
           animate={controls2}
           initial="hidden"
         >
-          <video className="video" controls="controls" autoplay loop>
+          <video className="video" controls="controls" loop>
             <source src={homeVideo} type="video/mp4" />
           </video>
           <StyledVideoText className="video-text">

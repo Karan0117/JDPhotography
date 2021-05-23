@@ -108,12 +108,25 @@ const PortfolioDetailResponsive = createGlobalStyle`
 
     @media screen and (max-width: 650px){
         .portfolio-header{
+            p{
+         font-size: 1.2rem;
+            }
             h1{
                 font-size: 3rem;
             }
         }
         .image-grid{
             grid-template-columns: auto;
+        }
+        .other-portfolios{
+            .portfolio-row{
+               .image-card{
+                   h4{
+                       margin: 1rem;
+                       font-size: 1.2rem;
+                   }
+               }
+            }
         }
     }
 @media screen and (max-width: 637px){
@@ -136,6 +149,11 @@ const PortfolioDetailResponsive = createGlobalStyle`
     }
 }
 @media screen and (max-width: 548px){
+     .portfolio-header{
+            h1{
+                font-size: 2.5rem;
+            }
+        }
     .other-portfolios{
         height: 45vh;
         .portfolio-row{
@@ -156,11 +174,23 @@ const PortfolioDetailResponsive = createGlobalStyle`
     }
 }
 @media screen and (max-width: 495px){
+ .portfolio-header{
+     p{
+         font-size: 1.2rem;
+     }
+            h1{
+                font-size: 2rem;
+            }
+        }
     .other-portfolios{
         height: 40vh;
         .portfolio-row{
             .image-card{
                 flex: 1 1 7rem;
+                h4{
+                    font-size: 1rem;
+                    margin: 0.5rem;
+                }
             }
         }
     }
