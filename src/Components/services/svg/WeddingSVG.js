@@ -10,7 +10,7 @@ const WeddingSVG = () => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g id="service-wedding 1" clip-path="url(#clip0)">
+        <g id="service-wedding 1" clipPath="url(#clip0)">
           <path
             id="Vector"
             opacity="0.1"
@@ -842,9 +842,9 @@ const WeddingSVG = () => {
             y2="168.77"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#808080" stop-opacity="0.25" />
-            <stop offset="0.54" stop-color="#808080" stop-opacity="0.12" />
-            <stop offset="1" stop-color="#808080" stop-opacity="0.1" />
+            <stop stopColor="#808080" stopOpacity="0.25" />
+            <stop offset="0.54" stopColor="#808080" stopOpacity="0.12" />
+            <stop offset="1" stopColor="#808080" stopOpacity="0.1" />
           </linearGradient>
           <clipPath id="clip0">
             <rect width="1144" height="703.24" fill="white" />

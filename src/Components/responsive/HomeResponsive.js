@@ -293,7 +293,7 @@ const HomeResponsive = createGlobalStyle`
             .hero{
                 height: 50vh;
                 .hero-img-1{
-                    height: 70%;
+                    height: 60%;
                 }
                 .hero-img-container{
                     padding: 2rem 2rem 0 0;
@@ -318,12 +318,48 @@ const HomeResponsive = createGlobalStyle`
                 .video-text{
                     justify-content: center;
                     top: 0%;
+                    h2 span{
+                        text-shadow: none;
+                    }
                 }
             }
     .bottom{
                 height: 28vh;
             }
         }
+        @media screen and (max-width: 450px){
+        .hero{
+                height: 40vh;
+                .hero-img-1{
+                    height: 60%;
+                }
+                .hero-img-container{
+                    margin-top: 4rem;
+                    padding: 1.5rem 1.5rem 0 0;
+                    width: 75%;
+                    height: 60%;
+                    img{
+                    width: 100%;
+                    }
+                }
+            }
+        }
+        /* @media screen and (max-width: 425px){
+        .hero{
+                height: 50vh;
+                .hero-img-1{
+                    height: 60%;
+                }
+                .hero-img-container{
+                    padding: 0.5rem 0.5rem 0 0;
+                    width: 70%;
+                    height: 55%;
+                    img{
+                    width: 100%;
+                    }
+                }
+            }
+        } */
     }
 `;
 
