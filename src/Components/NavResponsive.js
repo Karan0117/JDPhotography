@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 const NavResponsive = () => {
   // reference to the expanded nav menu
   const expandedNavRef = useRef();
+
   useEffect(() => {
     expandedNavRef.current.classList.remove("active");
   }, []);
