@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 // styling and animation
 import styled from "styled-components";
 import { motion } from "framer-motion";
@@ -29,9 +29,9 @@ const PortfolioDetails = () => {
   const history = useHistory();
   const location = useLocation();
   const dispatch = useDispatch();
-  const stateImgs = useSelector((state) => state.imgWedding.wedding);
+  const stateImgs = useSelector((state) => state.detailImages.images);
   const counterVal = useSelector((state) => state.counterValue.counter);
-  const protfolioCardData = useSelector(
+  const portfolioCardData = useSelector(
     (state) => state.portfolio.portfolioCardData
   );
 
@@ -39,11 +39,28 @@ const PortfolioDetails = () => {
   pathName = pathName.slice(11);
   pathName = pathName.replace("-", " ");
 
+  // checking for URL request for incorrect portfolio search
+  useEffect(() => {
+    let pathnameCheck = location.pathname;
+    let isValidPortfolio = portfolioCardData.some(
+      (data) =>
+        data.name.replace(" ", "-").toLowerCase() ===
+        pathnameCheck.split("/")[2].replace(" ", "-").toLowerCase()
+    );
+
+    if (!isValidPortfolio) {
+      history.push("/not-found");
+    }
+  }, [location.pathname, history, portfolioCardData]);
+
+  ////////// event handlers
+  // handler for Load More button
   const moreHandler = (event) => {
     dispatch(increaseCounter());
     dispatch(loadImages(location.pathname.slice(11), counterVal));
   };
 
+  // handler for go back button
   const goBackHandler = (event) => {
     dispatch(resetCounter());
     history.push("/portfolio");
@@ -79,7 +96,7 @@ const PortfolioDetails = () => {
         <OtherPortfolios className="other-portfolios">
           {/* <h3>Other Portfolios</h3> */}
           <div className="portfolio-row">
-            {protfolioCardData.map((data) => (
+            {portfolioCardData.map((data) => (
               <ImageCard name={data.name} imgFile={data.img} key={data.name} />
             ))}
           </div>

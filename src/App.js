@@ -40,7 +40,16 @@ function App() {
           <Route path="/contact">
             <ContactUs />
           </Route>
-          <Route>
+          <Route
+          // path={`${
+          //   !"/" ||
+          //   !"/portfolio" ||
+          //   !"/portfolio/:id" ||
+          //   !"/film" ||
+          //   !"/services" ||
+          //   !"/contact"
+          // }`}
+          >
             <PageNotFound />
           </Route>
         </Switch>
