@@ -5,7 +5,7 @@ import setPortfolioReducer from "./setPortfolioReducer";
 
 // combining all the reducers in one
 const rootReducers = combineReducers({
-  imgWedding: imageReducer,
+  detailImages: imageReducer,
   counterValue: coutnerReducer,
   portfolio: setPortfolioReducer,
 });
