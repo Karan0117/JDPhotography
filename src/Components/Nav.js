@@ -119,7 +119,7 @@ const StyledNav = styled.div`
       }
       li {
         h4 {
-          font-weight: normal;
+          /* font-weight: normal; */
         }
       }
     }
