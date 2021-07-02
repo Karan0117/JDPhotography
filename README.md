@@ -1,5 +1,3 @@
-# Readme for JDPhotography
-
 # John Doe Photography - Event Manager and more
 
 This application is a portfolio website for an event management firm that specializes in various services like photography, videography, music bands, choreographers and more. It uses an API from [Unsplash][unsplash]
